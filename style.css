@@ -1,0 +1,154 @@
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 4px;
+   padding-top: 170px;
+  }
+  .icons {
+    display: flex;
+    gap: 1.5rem;
+    
+  }
+  
+  
+  
+  .text {
+   font-size: 10px;
+   color: hsl(237, 18%, 59%);
+   text-align: center;
+   letter-spacing: 2px;
+   
+  }
+  
+  
+  .first {
+  
+    color: hsl(345, 95%, 68%);
+    width: 100px;
+    height: 50px;
+    font-size: 55px;
+    border-radius: 10px 10px 0 0;
+    background: hsl(236, 21%, 26%);
+    overflow: hidden;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+  }
+  
+
+  .first::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+  }
+
+  .first::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+  }
+  
+  .second {
+    position: relative;
+    overflow: hidden;
+    font-size: 55px;
+    border-radius: 0 0 10px 10px;
+    width: 100px;
+    height: 50px;
+    background: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    text-align: center;
+    line-height: 1px;
+  }
+
+  .second::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+
+  .second::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+  }
+  body {
+    position: relative;
+    background: hsl(234, 17%, 12%);
+    color: white;
+    min-height: 100vh;
+    font-family: 'Red Hat Text', sans-serif;
+    background-image: url("images/bg-stars.svg");
+    width: 100vw;
+  }
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 10rem;
+  width: 100%;
+  background-image: url("images/pattern-hills.svg");
+  place-content: center;
+  align-items: center;
+}
+
+  
+  
+  
+  img:hover svg {
+   fill: hsl(345, 95%, 68%);
+  }
+
+
+  @media screen and (max-width: 375px) {
+
+.first {
+ 
+  max-width: 80px;
+   height: 40px;
+   line-height: 80px;
+   font-size: 45px;
+}
+.second {
+  max-width: 80px;
+  height: 40px; 
+font-size: 45px;
+}
+.main {
+  
+  gap: .5rem;
+  
+}
+  }
+
+  
+ 
