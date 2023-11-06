@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    
+   
   }
   
   header {
@@ -10,6 +10,7 @@
     margin-bottom: 70px;
     letter-spacing: 4px;
    padding-top: 170px;
+   
   }
   .icons {
     display: flex;
@@ -133,18 +134,18 @@ footer {
 
 .first {
  
-  max-width: 80px;
-   height: 40px;
-   line-height: 80px;
-   font-size: 45px;
+  max-width: 70px;
+   height: 35px;
+   line-height: 70px;
+   font-size: 40px;
 }
 .second {
-  max-width: 80px;
-  height: 40px; 
-font-size: 45px;
+  max-width: 70px;
+  height: 35px; 
+font-size: 40px;
 }
 .main {
-  
+  width: min(90%, 1000px);
   gap: .5rem;
   
 }
