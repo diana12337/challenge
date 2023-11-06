@@ -171,12 +171,7 @@ footer {
   align-items: center;
 }
 
-  
-  
-  
-  img:hover svg {
-   fill: hsl(345, 95%, 68%);
-  }
+
 
 
   @media screen and (max-width: 375px) {
